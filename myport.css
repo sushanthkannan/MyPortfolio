@@ -1,0 +1,229 @@
+/*CSS file of My portfolio */
+
+.mainn {
+    color: white;
+}
+
+.name {
+    padding-left: 25%;
+}
+
+h2 {
+    font-family: Pacifico;
+    border-bottom: 3px solid white;
+}
+
+.row {
+    text-align: center;
+}
+
+.education {
+    font-family: Concert;
+}
+
+.eduborder {
+    border: 3px solid white;
+}
+
+.edu1,
+.edu2,
+.edu3 {
+    display: none;
+    transition-duration: 2s;
+}
+
+.edu1:hover,
+.edu2:hover,
+.edu3:hover {
+    font-size: 20px;
+    color: tomato;
+}
+
+#edu1,
+#edu2,
+#edu3 {
+    transition-duration: 2s;
+}
+
+#edu1:hover,
+#edu2:hover,
+#edu3:hover {
+    font-size: 40px;
+    color: tomato;
+}
+
+.about {
+    text-align: center;
+    font-family: Concert one;
+}
+
+.aboutdesc {
+    font-family: Lobster;
+    display: none;
+    font-size: 25px;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.aboutdesc:hover {
+    font-size: 35px;
+    color: tomato;
+}
+
+#skillborder {
+    border-right: 3px solid white;
+}
+
+.aboutdiv {
+    padding: 10% 0% 20% 0%;
+}
+
+.intro1 {
+    font-family: Courgette;
+    font-size: 100px;
+    text-align: end;
+}
+
+.intro2 {
+    font-family: Courgette;
+    font-size: 100px;
+    text-align: start;
+}
+
+.introx {
+    font-family: Courgette;
+    font-size: 100px;
+    text-align: start;
+    display: none;
+    border-bottom: 5px solid white;
+    transition-duration: 2s;
+}
+
+.introy {
+    font-family: Courgette;
+    font-size: 100px;
+    text-align: end;
+    display: none;
+    transition-duration: 2s;
+}
+
+.introx:hover,
+.introy:hover {
+    font-size: 120px;
+    color: tomato;
+    border-bottom-color: tomato;
+}
+
+.intro {
+    padding: 10% 5% 20% 5%;
+}
+
+.col-sm-3 {
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.synopsis0,
+.synopsis1,
+.synopsis2,
+.synopsis3 {
+    font-size: 30px;
+    position: absolute;
+    display: none;
+    text-align: end;
+    font-family: Luckiest guy;
+}
+
+.instruction,
+.instruction1 {
+    text-align: end;
+    font-size: 20px;
+    font-family: Luckiest guy;
+    transition-duration: 2s;
+}
+
+.instruction:hover,
+.instruction1:hover {
+    font-size: 30px;
+    color: tomato;
+}
+
+.instruction1 {
+    margin-right: 5%;
+}
+
+.myname1,
+.myname2 {
+    font-size: 100px;
+    text-align: center;
+    font-family: Sigmar One;
+    transition-duration: 2s;
+}
+
+.top {
+    position: fixed;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.logos {
+    align-content: flex-end;
+}
+
+.taphere {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.myname {
+    padding: 10% 5% 30% 5%;
+}
+
+.myname1:hover {
+    font-size: 120px;
+    color: tomato;
+}
+
+.myname2:hover {
+    font-size: 120px;
+    color: tomato;
+}
+
+.eduhover {
+    padding: 10% 0% 30% 0%;
+}
+
+.theme {
+    padding: 5% 20% 20% 42%;
+}
+
+.themehead {
+    font-size: 80px;
+    font-family: Luckiest guy;
+    transition-duration: 2s;
+}
+
+.themehead:hover {
+    font-size: 90px;
+    color: tomato;
+}
+
+.theme1 {
+    font-size: 30px;
+    display: none;
+    position: absolute;
+    font-family: Courgette;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+
+.theme2 {
+    font-size: 30px;
+    font-family: Courgette;
+    margin-top: 40px;
+    margin-left: 75px;
+    background-color: black;
+}
